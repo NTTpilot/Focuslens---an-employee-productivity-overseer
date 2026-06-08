@@ -1,0 +1,16 @@
+# FocusLens dependencies
+# Install with: pip install -r requirements.txt
+
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Stage 2 (emotion model) – uncommenting when ready:
+# torch>=2.0.0
+# torchvision>=0.15.0
+# timm>=0.9.0
+
+# Stage 5 (report) – uncommenting when ready:
+# matplotlib>=3.7.0
+# fpdf2>=2.7.0
