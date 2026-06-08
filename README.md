@@ -39,7 +39,7 @@ focuslens/
 |-------|--------|-------------|
 | 1 | ✅ done | GUI shell, webcam feed, face detection, session logging |
 | 2 | next   | Emotion classification model (EfficientNet fine-tuned) |
-| 3 | later  | Fine-tuning pipeline on your own labelled data |
+| 3 | later  | Fine-tuning pipeline on labelled data |
 | 4 | later  | Calibration & threshold tuning per user |
 | 5 | later  | PDF/HTML session report with charts |
 
@@ -56,6 +56,3 @@ Edit `config.py` to change:
 Each session is saved to `sessions/<timestamp>/`:
 - `log.csv` – raw per-second state log
 - `summary.json` – computed at session end (focus %, productive hours, etc.)
-
-## planned content
-- integrating a model that actually decides whether an employee is focused while on the desk or just going through the motions.
